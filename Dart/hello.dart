@@ -1,6 +1,4 @@
-void main() {
-  print('Hello, World');
+main() {
+  int? x;
+  print(x!);
 }
-
-
-
