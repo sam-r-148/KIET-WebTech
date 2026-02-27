@@ -8,9 +8,7 @@ class Student {
 
   Student.onlyName(this.name) : age = 0; // Named constructor
 
-  Student.guest()
-    : name = "Guest",
-      age = 0; // Default constructor
+  Student.guest() : name = "Guest", age = 0; // Default constructor
 
 
   // Method to display student details
