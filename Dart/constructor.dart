@@ -4,7 +4,7 @@ class Student {
 
   // Student(this.name, this.age); // Constructor: In Dart, constructor overloading is not supported
 
-  Student(this.name,[this.age = 0]); // Optional parameter with default value
+  Student(this.name,[this.age = 20]); // Optional parameter with default value
 
   Student.onlyName(this.name) : age = 0; // Named constructor
 
@@ -24,7 +24,7 @@ class Student {
 
 void main() {
   // Create an object(instance) of Student Class  
-  Student s1 = Student("Samridh", 20);
+  Student s1 = Student("Samridh");
   s1.display();
 
   // Using named constructor
