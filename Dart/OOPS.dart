@@ -2,7 +2,7 @@ class Student {
   String name;
   int age;
 
-  Student(this.name, this.age); // Constructor
+  Student(this.name, this.age); // Constructor: In Dart, constructor overloading is not supported
 
   // Method to display student details
   void display() {
@@ -16,3 +16,4 @@ void main() {
   Student s1 = Student("Samridh", 20);
   s1.display();
 }
+
