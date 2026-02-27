@@ -22,9 +22,28 @@ class Dog extends Animal {
   }
 }
 
+class puppy implements Animal{ // MULTILEVEL & MULTIPLE INHERITANCE using implements keyword
+  void weep(){
+    print("Puppy is weeping");
+  }
+  @override
+  void eat() {
+    print("Puppy is eating");
+  }
+  @override
+  void sound() {
+    print("Puppy barks");
+  }
+}
+
 void main() {
   Dog dog = Dog();
   dog.eat(); // Inherited method from Animal class
   dog.sleep(); // Dog's own method
   dog.sound(); // Overridden method from Animal class
+  puppy p = puppy();
+  p.eat(); // Inherited method from Animal class
+  p.sound(); // Inherited method from Dog class
+  p.weep(); // Puppy's own method
+  
 }
