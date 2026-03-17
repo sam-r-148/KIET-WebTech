@@ -174,7 +174,7 @@ function greet2(name) {
 }
 console.log(greet2("Charlie")); // Output: Hello, Charlie!
 
-/* 
+/*
 Anonymous Function - It is a function that does not have a name
                    - Usually assigned to a variable
                    - Since it has no name we cannot call it directly
@@ -347,7 +347,7 @@ Asynchronous Programming - Code is executed sequentially, one line at a time. Ea
                          - Common asynchronous operations include network requests, file I/O, and timers.
                          - JavaScript provides mechanisms like callbacks, promises, and async/await to handle asynchronous code effectively.
 */
-    
+
 /*
 Promises - An object representing the eventual completion or failure of an asynchronous operation and its resulting value.
          - A promise can be in one of three states: pending, fulfilled, or rejected.

@@ -20,6 +20,8 @@ DUMMY DATA
 -----------------------------------------------------------
 */
 
+/*
+
 List<String> todoList = ["Buy Milk", "Study Dart", "Submit Assignment"];
 
 Map<String, dynamic> studentData = {
@@ -368,3 +370,9 @@ RUN DRIVER
 void main() async {
   await driver();
 }
+
+
+
+
+
+*/
